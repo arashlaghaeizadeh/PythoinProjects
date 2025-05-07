@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonPiano", "PythonPiano\PythonPiano.pyproj", "{7D461381-4D4D-4052-B63D-3B1A9062730C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D461381-4D4D-4052-B63D-3B1A9062730C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D461381-4D4D-4052-B63D-3B1A9062730C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E95A02-D4A2-4B4E-9E39-9F4F38F1D479}
+	EndGlobalSection
+EndGlobal

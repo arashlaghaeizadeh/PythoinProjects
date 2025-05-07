@@ -1,0 +1,132 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7d461381-4d4d-4052-b63d-3b1a9062730c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonPiano.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonPiano</Name>
+    <RootNamespace>PythonPiano</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="piano_lists.py" />
+    <Compile Include="PythonPiano.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\notes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\logo.png" />
+    <Content Include="assets\notes\A0.wav" />
+    <Content Include="assets\notes\A1.wav" />
+    <Content Include="assets\notes\A2.wav" />
+    <Content Include="assets\notes\A3.wav" />
+    <Content Include="assets\notes\A4.wav" />
+    <Content Include="assets\notes\A5.wav" />
+    <Content Include="assets\notes\A6.wav" />
+    <Content Include="assets\notes\A7.wav" />
+    <Content Include="assets\notes\Ab1.wav" />
+    <Content Include="assets\notes\Ab2.wav" />
+    <Content Include="assets\notes\Ab3.wav" />
+    <Content Include="assets\notes\Ab4.wav" />
+    <Content Include="assets\notes\Ab5.wav" />
+    <Content Include="assets\notes\Ab6.wav" />
+    <Content Include="assets\notes\Ab7.wav" />
+    <Content Include="assets\notes\B0.wav" />
+    <Content Include="assets\notes\B1.wav" />
+    <Content Include="assets\notes\B2.wav" />
+    <Content Include="assets\notes\B3.wav" />
+    <Content Include="assets\notes\B4.wav" />
+    <Content Include="assets\notes\B5.wav" />
+    <Content Include="assets\notes\B6.wav" />
+    <Content Include="assets\notes\B7.wav" />
+    <Content Include="assets\notes\Bb0.wav" />
+    <Content Include="assets\notes\Bb1.wav" />
+    <Content Include="assets\notes\Bb2.wav" />
+    <Content Include="assets\notes\Bb3.wav" />
+    <Content Include="assets\notes\Bb4.wav" />
+    <Content Include="assets\notes\Bb5.wav" />
+    <Content Include="assets\notes\Bb6.wav" />
+    <Content Include="assets\notes\Bb7.wav" />
+    <Content Include="assets\notes\C1.wav" />
+    <Content Include="assets\notes\C2.wav" />
+    <Content Include="assets\notes\C3.wav" />
+    <Content Include="assets\notes\C4.wav" />
+    <Content Include="assets\notes\C5.wav" />
+    <Content Include="assets\notes\C6.wav" />
+    <Content Include="assets\notes\C7.wav" />
+    <Content Include="assets\notes\C8.wav" />
+    <Content Include="assets\notes\D1.wav" />
+    <Content Include="assets\notes\D2.wav" />
+    <Content Include="assets\notes\D3.wav" />
+    <Content Include="assets\notes\D4.wav" />
+    <Content Include="assets\notes\D5.wav" />
+    <Content Include="assets\notes\D6.wav" />
+    <Content Include="assets\notes\D7.wav" />
+    <Content Include="assets\notes\Db1.wav" />
+    <Content Include="assets\notes\Db2.wav" />
+    <Content Include="assets\notes\Db3.wav" />
+    <Content Include="assets\notes\Db4.wav" />
+    <Content Include="assets\notes\Db5.wav" />
+    <Content Include="assets\notes\Db6.wav" />
+    <Content Include="assets\notes\Db7.wav" />
+    <Content Include="assets\notes\E1.wav" />
+    <Content Include="assets\notes\E2.wav" />
+    <Content Include="assets\notes\E3.wav" />
+    <Content Include="assets\notes\E4.wav" />
+    <Content Include="assets\notes\E5.wav" />
+    <Content Include="assets\notes\E6.wav" />
+    <Content Include="assets\notes\E7.wav" />
+    <Content Include="assets\notes\Eb1.wav" />
+    <Content Include="assets\notes\Eb2.wav" />
+    <Content Include="assets\notes\Eb3.wav" />
+    <Content Include="assets\notes\Eb4.wav" />
+    <Content Include="assets\notes\Eb5.wav" />
+    <Content Include="assets\notes\Eb6.wav" />
+    <Content Include="assets\notes\Eb7.wav" />
+    <Content Include="assets\notes\F1.wav" />
+    <Content Include="assets\notes\F2.wav" />
+    <Content Include="assets\notes\F3.wav" />
+    <Content Include="assets\notes\F4.wav" />
+    <Content Include="assets\notes\F5.wav" />
+    <Content Include="assets\notes\F6.wav" />
+    <Content Include="assets\notes\F7.wav" />
+    <Content Include="assets\notes\G1.wav" />
+    <Content Include="assets\notes\G2.wav" />
+    <Content Include="assets\notes\G3.wav" />
+    <Content Include="assets\notes\G4.wav" />
+    <Content Include="assets\notes\G5.wav" />
+    <Content Include="assets\notes\G6.wav" />
+    <Content Include="assets\notes\G7.wav" />
+    <Content Include="assets\notes\Gb1.wav" />
+    <Content Include="assets\notes\Gb2.wav" />
+    <Content Include="assets\notes\Gb3.wav" />
+    <Content Include="assets\notes\Gb4.wav" />
+    <Content Include="assets\notes\Gb5.wav" />
+    <Content Include="assets\notes\Gb6.wav" />
+    <Content Include="assets\notes\Gb7.wav" />
+    <Content Include="assets\Terserah.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

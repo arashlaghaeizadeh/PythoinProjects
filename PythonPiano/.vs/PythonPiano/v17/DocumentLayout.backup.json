@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\PythonPiano\\PythonPiano\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D461381-4D4D-4052-B63D-3B1A9062730C}|PythonPiano\\PythonPiano.pyproj|D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\PythonPiano.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D461381-4D4D-4052-B63D-3B1A9062730C}|PythonPiano\\PythonPiano.pyproj|solutionrelative:PythonPiano\\PythonPiano.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D461381-4D4D-4052-B63D-3B1A9062730C}|PythonPiano\\PythonPiano.pyproj|D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\piano_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D461381-4D4D-4052-B63D-3B1A9062730C}|PythonPiano\\PythonPiano.pyproj|solutionrelative:PythonPiano\\piano_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "piano_lists.py",
+              "DocumentMoniker": "D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\piano_lists.py",
+              "RelativeDocumentMoniker": "PythonPiano\\piano_lists.py",
+              "ToolTip": "D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\piano_lists.py",
+              "RelativeToolTip": "PythonPiano\\piano_lists.py",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-03T15:27:55.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PythonPiano.py",
+              "DocumentMoniker": "D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\PythonPiano.py",
+              "RelativeDocumentMoniker": "PythonPiano\\PythonPiano.py",
+              "ToolTip": "D:\\VisualStudio\\PythonPiano\\PythonPiano\\PythonPiano\\PythonPiano.py",
+              "RelativeToolTip": "PythonPiano\\PythonPiano.py",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-03T09:12:56.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
